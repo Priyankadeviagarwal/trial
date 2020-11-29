@@ -1,0 +1,99 @@
+[6:35 pm, 22/05/2020] sumanth: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            fieldset{
+                border: 1px solid lightgrey;
+                
+                width: 50%
+            }
+            
+            #text{
+                border: 1px solid lightgray;
+                padding:5px;
+            
+            }
+            #address{
+                border: 1px solid lightgray;
+            padding :5px;
+            width:98%;
+            
+            }
+            
+            #text{
+                text-align: end;
+            }
+            
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            ul li {
+                
+                background-color: #ffffff;
+                padding:0px;
+                text-decoration: none;
+                font-size: 18px;
+                color: black;
+                display: block;
+                position: relative;
+            }
+
+            ul li:hover {
+                background-color: rgb(255, 255, 255);
+            }
+
+            .close {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                right: 0%;
+                padding: 12px 16px;
+                transform: translate(0%, -50%);
+            }
+
+            .close:hover {
+                background: #bbb;
+            }
+        
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                
+    
+                    <ul>
+                        <li><p style="text-align: center">Invite to board<span class="close">&times;</span></p></li>
+                    </ul>
+
+
+            <hr />  
+            <p style="text-align: center"><input type ="email" id="text" value="Email address or name" />
+            </p> 
+
+            
+                <label for="address"></label>
+                <textarea id="address" rows="6" value="I'm working on this project in Trello and wanted to share it with you"></textarea>
+
+            <p style="text-align: center"><input type="button" value="Send Invitation" /></p>
+            <hr />
+                [-]Invite with link <a href ="">Create link</a>
+                <br />
+                    Anyone with this link can join as board member
+                
+
+                   
+            
+
+            </fieldset>
+        </form>
+    </body>
+</html>
